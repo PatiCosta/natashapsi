@@ -30,7 +30,7 @@ export function Liberty() {
           pr={{ base: 0, lg: 8 }}
           gap={4}
         >
-
+{/* 
 
           <Heading
             size={isLg ? 'lg' : 'sm'}
@@ -40,7 +40,7 @@ export function Liberty() {
             highlightColor="whiskey"
             color="alabaster"
             textAlign={{ base: 'center', lg: 'start' }}
-          />
+          /> */}
 
           <FreedomCompact />
 
@@ -55,10 +55,6 @@ export function Liberty() {
               temos controle e que podem causar traumas e dores profundas.
               O processo de conviver e até de superar um trauma ou um luto é muito difícil e
               afeta a nossa capacidade de escolha, de ação e de sermos a nós mesmos.
-              <br></br>
-              <br></br>
-              Atravessar pela vida com a dor de um trauma ou luto de forma solitária pode ser
-              complicado, podendo causar ainda mais dor pela falta de compreensão e apoio.
               <br></br>
               <br></br>
               A psicoterapia individual ou em grupo ajuda a organizar pensamentos, sentimentos

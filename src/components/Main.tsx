@@ -23,7 +23,7 @@ export function Main() {
 
     <Flex position="relative" pb={4}>
 
-      <Flex gap={12} direction="column" pl={12} pr={8} mt={48}>
+      <Flex gap={12} direction="column" pl={12} pr={8} my='auto'>
         <Box
           bgColor="olive"
           p={{ base: 4, lg: 5 }}
@@ -81,91 +81,97 @@ export function Main() {
         </Box>
       </Flex>
       <Image src="/assets/new-images/bem-vindos-desktop.png" alt="mainImg" h="700px" maxW='560px' objectFit={'cover'} borderBottomRadius={'48%'} />
-      <Box pr={20} pl={24} pt={12}>
-        <Flex justifyContent="space-between" gap={12}>
-          <Text
-            fontSize={{ base: 'sm', lg: 'md' }}
-            py={2}
-            px={4}
-            textAlign={'center'}
-            borderRadius="full"
-            border="1px solid"
-            borderColor="brass"
-            transition="all .2s ease"
-            _hover={{ bgColor: 'brass', color: 'alabaster' }}
-            cursor="pointer"
-            as={Link}
-            href="#psicotherapy-anchor"
-          >
-            PSICOTERAPIA INDIVIDUAL
-          </Text>
-          <Text
-            fontSize={{ base: 'sm', lg: 'md' }}
-            py={2}
-            px={4}
-            textAlign={'center'}
-            borderRadius="full"
-            border="1px solid"
-            borderColor="brass"
-            transition="all .2s ease"
-            _hover={{ bgColor: 'brass', color: 'alabaster' }}
-            cursor="pointer"
-            as={Link}
-            href="#group-anchor"
-          >
-            GRUPOS TERAPÊUTICOS
-          </Text>
-        </Flex>
-        <Box mt={12}>
-          <Heading size="xs" text="Olá!" color="siam" />
-          <Heading
-            size="lg"
-            text="Meu nome é Natasha Macedo,"
-            color="siam"
-            isHighlighted
-            highlightedText="Natasha Macedo,"
-            highlightColor="brass"
-          />
-          <Text fontSize="lg" mt={6}>
-            <Highlight
-              query={['Psicóloga Clínica', 'Pós Graduada em Avaliação Psicológica', 'Análise Comportamental Clinica']}
-              styles={{ fontWeight: 'semibold', color: 'siam' }}
-            >
-              Sou Psicóloga Clínica e Pós Graduada em Avaliação Psicológica e Análise Comportamental Clinica.
-            </Highlight>
-          </Text>
-          <Text fontSize="1.125rem" mt={4}>
-            <Highlight
-              query={['FAP']}
-              styles={{ fontWeight: 'medium', color: 'siam' }}
-            >
-              Sou Analista do Comportamento, com foco em trauma e luto, além de atuar com as terapias contextuais:
+      <Box pr={20} pl={24} pt={8}>
+        <Flex flexDir={'column'} gap={4} alignItems={'center'}>
 
-              FAP (Psicoterapia Análitica Funcional) e
-            </Highlight>
-            <br></br>
-            <Highlight
-              query={['ACT']}
-              styles={{ fontWeight: 'medium', color: 'siam' }}
+          <Flex>
+            <Image
+              src="/assets/logo.png"
+              alt="logo"
+              h={24}
+            />
+          </Flex>
+
+          <Box>
+            <Heading size="xs" text="Olá!" color="siam" />
+            <Heading
+              size="lg"
+              text="Meu nome é Natasha Macedo,"
+              color="siam"
+              isHighlighted
+              highlightedText="Natasha Macedo,"
+              highlightColor="brass"
+            />
+            <Text fontSize="lg" mt={6}>
+              <Highlight
+                query={['Psicóloga Clínica', 'Pós Graduada em Avaliação Psicológica', 'Análise Comportamental Clinica']}
+                styles={{ fontWeight: 'semibold', color: 'siam' }}
+              >
+                Psicóloga Clínica, Pós Graduada em Avaliação Psicológica e Análise Comportamental Clinica.
+              </Highlight>
+            </Text>
+            <Text fontSize="1.125rem" mt={4}>
+              <Highlight
+                query={['FAP']}
+                styles={{ fontWeight: 'medium', color: 'siam' }}
+              >
+                Sou Analista do Comportamento, com foco em trauma e luto, além de atuar com as terapias contextuais:
+
+                FAP (Psicoterapia Análitica Funcional) e
+              </Highlight>
+              <br></br>
+              <Highlight
+                query={['ACT']}
+                styles={{ fontWeight: 'medium', color: 'siam' }}
+              >
+                ACT (Terapia de Aceitação e Compromisso).
+              </Highlight>
+              <br></br>
+            </Text>
+            <Text fontSize="1.125rem" mt={4}>
+              Minha atuação profissional é focada em aprofundar o autoconhecimento
+              para que as pessoas possam se sentir mais livres para viver uma vida com significado.
+            </Text>
+          </Box>
+
+          <Flex justifyContent="space-between" gap={12}>
+            <Text
+              fontSize={{ base: 'sm', lg: 'md' }}
+              py={2}
+              px={4}
+              textAlign={'center'}
+              borderRadius="full"
+              border="1px solid"
+              borderColor="brass"
+              transition="all .2s ease"
+              _hover={{ bgColor: 'brass', color: 'alabaster' }}
+              cursor="pointer"
+              as={Link}
+              href="#psicotherapy-anchor"
             >
-              ACT (Terapia de Aceitação e Compromisso).
-            </Highlight>
-            <br></br>
-          </Text>
-          <Text fontSize="1.125rem" mt={4}>
-          Minha atuação profissional é focada em aprofundar o autoconhecimento 
-          para que as pessoas possam se sentir mais livres para viver uma vida com significado.
-          </Text> 
-        </Box>
+              PSICOTERAPIA INDIVIDUAL
+            </Text>
+            <Text
+              fontSize={{ base: 'sm', lg: 'md' }}
+              py={2}
+              px={4}
+              textAlign={'center'}
+              borderRadius="full"
+              border="1px solid"
+              borderColor="brass"
+              transition="all .2s ease"
+              _hover={{ bgColor: 'brass', color: 'alabaster' }}
+              cursor="pointer"
+              as={Link}
+              href="#group-anchor"
+            >
+              GRUPOS TERAPÊUTICOS
+            </Text>
+          </Flex>
+        </Flex>
+
       </Box>
-      <Image
-        src="/assets/logo.png"
-        alt="logo"
-        h={24}
-        position="absolute"
-        top={12}
-        left={12}
-      />
+
     </Flex>
   ) : (
     <>
@@ -281,9 +287,9 @@ export function Main() {
         />
       </Flex>
       <Box mx={8} mb={6} pt={4}>
-        <Heading  textAlign={'center'}size="xs" text="Olá!" color="siam" />
+        <Heading textAlign={'center'} size="xs" text="Olá!" color="siam" />
         <Heading
-        textAlign={'center'}
+          textAlign={'center'}
           size="sm"
           text="Meu nome é Natasha Macedo,"
           color="siam"
@@ -300,27 +306,27 @@ export function Main() {
           </Highlight>
         </Text>
         <Text fontSize="0.875rem" textAlign={'justify'} mt={4}>
-            <Highlight
-              query={['FAP']}
-              styles={{ fontWeight: 'medium', color: 'siam' }}
-            >
-              Sou Analista do Comportamento, com foco em trauma e luto, além de atuar com as terapias contextuais:
+          <Highlight
+            query={['FAP']}
+            styles={{ fontWeight: 'medium', color: 'siam' }}
+          >
+            Sou Analista do Comportamento, com foco em trauma e luto, além de atuar com as terapias contextuais:
 
-              FAP (Psicoterapia Análitica Funcional) e
-            </Highlight>
-            <br></br>
-            <Highlight
-              query={['ACT']}
-              styles={{ fontWeight: 'medium', color: 'siam' }}
-            >
-              ACT (Terapia de Aceitação e Compromisso).
-            </Highlight>
-            <br></br>
-          </Text>
-          <Text fontSize="0.875rem" textAlign={'justify'} mt={4}>
-          Minha atuação profissional é focada em aprofundar o autoconhecimento 
+            FAP (Psicoterapia Análitica Funcional) e
+          </Highlight>
+          <br></br>
+          <Highlight
+            query={['ACT']}
+            styles={{ fontWeight: 'medium', color: 'siam' }}
+          >
+            ACT (Terapia de Aceitação e Compromisso).
+          </Highlight>
+          <br></br>
+        </Text>
+        <Text fontSize="0.875rem" textAlign={'justify'} mt={4}>
+          Minha atuação profissional é focada em aprofundar o autoconhecimento
           para que as pessoas possam se sentir mais livres para viver uma vida com significado.
-          </Text> 
+        </Text>
       </Box>
     </>
   )

@@ -66,10 +66,12 @@ export function CanIHelp() {
             w='100%'
             h={['360px', '360px', '512px', '720px']}
             alignItems={'end'}
+            border='1px'
           >
             <Flex
               w='100%'
-              h={['80px', '80px', '256px', '256px']}
+              // h={['80px', '80px', '256px', '556px']}
+              my='auto'
               pb={[4,4,0,0]}
               flexDir={['column-reverse', 'column-reverse', 'row', 'row']}
               gap={[4, 4, 0, 0]}

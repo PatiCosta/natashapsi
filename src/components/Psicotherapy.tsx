@@ -26,7 +26,7 @@ export function Psicotherapy() {
             <Flex flexDir='column' w='100%' maxW={'52vw'} gap={2} >
 
               <Image src="/assets/new-images/atendimento-1.jpg" alt="Imagem ilustrativa" />
-              <Image src="/assets/new-images/atendimento-2.jpg" alt="Imagem ilustrativa"/>
+              {/* <Image src="/assets/new-images/atendimento-2.jpg" alt="Imagem ilustrativa"/> */}
               <Image src="/assets/new-images/whatsapp-image.jpg" alt="Imagem ilustrativa"/>
 
             </Flex>
@@ -99,13 +99,6 @@ export function Psicotherapy() {
             </Text>
             <br></br>
 
-            <Text>
-              É preciso entender o funcionamento da pessoa em terapia dentro do contexto de vida dela: como foi
-              a construção da sua identidade, como é o conceito que tem de si, como enxerga o mundo em que vive
-              e como ela se comporta em diversos ambientes.
-            </Text>
-            <br></br>
-
             {!isLg && (
               <Image src="/assets/new-images/atendimento-2.jpg" alt="Imagem ilustrativa" py={4} />
             )}
@@ -113,9 +106,7 @@ export function Psicotherapy() {
             <br></br>
 
             <Text>
-              Psicoterapia pode ter também por objetivo trabalhar qualquer trauma, luto (perdas como divorcio, morte,
-              doença, demissão ou outras), medos extremos, inseguranças, crises de ansiedade, ou para aprofundar
-              o autoconhecimento, com foco no equilíbrio emocional, desenvolvimento de autoestima e melhorar a qualidade dos relacionamentos.
+            Psicoterapia pode trabalhar qualquer trauma, luto (perdas como divorcio, morte, doença, demissão ou outras) ou medos extremos, inseguranças, crises de ansiedade, e até mesmo para aprofundar o autoconhecimento, com foco no equilíbrio emocional, desenvolvimento de autoestima e melhorar a qualidade dos relacionamentos.
             </Text>
 
             {!isLg && (

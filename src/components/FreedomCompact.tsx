@@ -1,4 +1,4 @@
-import { Box, Flex, Image, useBreakpointValue } from '@chakra-ui/react'
+import { Box, Divider, Flex, Image, useBreakpointValue } from '@chakra-ui/react'
 import { FlowerLotus, Target, TrafficSign } from 'phosphor-react'
 import { Heading } from './Heading'
 
@@ -17,19 +17,20 @@ export function FreedomCompact() {
         w='100%'
         justifyContent="space-between"
         alignItems="center"
-        >
+      >
 
 
         <Flex
           w='100%'
           justifyContent="space-between"
           alignItems="start"
-          flexDir={['row','row','column','column']}
-          
-          gap={[0,0,8,8]}
-      
+          flexDir={['row', 'row', 'row', 'row']}
+
+          gap={[0, 0, 8, 8]}
+
         >
           <Flex
+            w='100%'
             gap={{ base: 2, lg: 4 }}
             alignItems="center"
             direction={{ base: 'column', lg: 'row' }}
@@ -48,11 +49,13 @@ export function FreedomCompact() {
               highlightedText="escolha"
               highlightColor="whiskey"
               w={{ base: 24, lg: 'auto' }}
-              textAlign={{ base: 'center', lg: 'center' }}
+              textAlign={{ base: 'center', lg: 'start' }}
             />
           </Flex>
 
+          <Divider orientation='vertical' bgColor='alabaster' w={'0.5px'} h={14} my='auto' />
           <Flex
+            w='100%'
             gap={{ base: 2, lg: 4 }}
             alignItems="center"
             direction={{ base: 'column', lg: 'row' }}
@@ -71,11 +74,12 @@ export function FreedomCompact() {
               highlightedText="ação"
               highlightColor="whiskey"
               w={{ base: 24, lg: 'auto' }}
-              textAlign={{ base: 'center', lg: 'center' }}
+              textAlign={{ base: 'center', lg: 'start' }}
             />
           </Flex>
-
+          <Divider orientation='vertical' bgColor='alabaster' w={'0.5px'} h={14} my='auto' />
           <Flex
+            w='100%'
             gap={{ base: 2, lg: 4 }}
             alignItems="center"
             direction={{ base: 'column', lg: 'row' }}
@@ -94,7 +98,7 @@ export function FreedomCompact() {
               highlightedText="ser"
               highlightColor="whiskey"
               w={{ base: 24, lg: 'auto' }}
-              textAlign={{ base: 'center', lg: 'center' }}
+              textAlign={{ base: 'center', lg: 'start' }}
             />
           </Flex>
 

@@ -28,11 +28,11 @@ export function Supera() {
                 justify={'center'}
             >   <Image src="/assets/icon_logo_light.svg" alt="icon" boxSize={12} />
                 <Heading
-                    text="Grupo terapeutico SUPERA!"
+                    text="Grupo terapeutico Vida após o Divórcio!"
                     textAlign={'center'}
                     size={isLg? "lg" : 'md'}
                     isHighlighted
-                    highlightedText={"SUPERA!"}
+                    highlightedText={"Vida após o Divórcio!"}
                     highlightColor="whiskey"
                 />
                 <Box
@@ -55,12 +55,12 @@ export function Supera() {
                 {/* LEFT CONTENT */}
                 <Flex flexDir={'column'} w='100%' justifyContent={'space-between'} gap={[8, 8, 0, 0]}>
                     <Text>
-                        No grupo terapêutico <b style={{color:'#D49671'}}> SUPERA </b> vamos aprofundar cada um desses temas de forma prática
+                        No grupo terapêutico <b style={{color:'#D49671'}}> Vida após o Divórcio </b> vamos aprofundar cada um desses temas de forma prática
                         e profunda a cada encontro, dando espaço para a dor, compreensão e acolhimento,
                         com objetivo principal da retomada de uma vida significativa após a separação.
                         <br></br>
                         <br></br>
-                        Inicio: Janeiro de <b style={{color:'#D49671'}}> 2025 </b>
+                        Inicio: Março de <b style={{color:'#D49671'}}> 2025 </b>
                     </Text>
 
                     <Flex flexDir={'column'} gap={2}>
@@ -88,8 +88,8 @@ export function Supera() {
 
 
 
-                    <Text _highlighted={'SUPERA'}>
-                        Para quem é Grupo Terapêutico <b style={{color:'#D49671'}}> SUPERA</b>?
+                    <Text _highlighted={'Vida após o Divórcio'}>
+                        Para quem é Grupo Terapêutico <b style={{color:'#D49671'}}> Vida após o Divórcio</b>?
                         <br></br><br></br>
                         Mulheres e homens que acabaram de se separar de um relacionamento (divorcio ou separação) e se sentem:
                     </Text>

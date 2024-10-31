@@ -25,7 +25,7 @@ export function AnimatedButton({ inView, animation, title, id }: AnimatedButtonP
                 textAlign={'center'}
                 py={2}
                 borderRadius={'md'}
-                bgColor={'siam'}
+                bgColor={'siamTranslucent'}
                 border='1px solid #ffffff55'
                 cursor={'pointer'}
                 _hover={{ bgColor: 'whiskey', transition: '360ms' }}

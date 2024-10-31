@@ -151,20 +151,6 @@ export function About() {
                 recursos para atravessar pelo luto.
               </Text>
             </Flex>
-            <Flex gap={[1, 1, 4, 4]}>
-              <Flex alignItems={'start'} pt={1}>
-                <CheckCircle size={isLg ? 32 : 18} color="#B16E51" />
-              </Flex>
-              <Text
-                fontSize={{ base: "md", lg: "lg" }}
-                lineHeight={{ base: "md", lg: "lg" }}
-              >
-                Mesmo respeitando a sua forma de enfrentar a própria dor (o
-                acontecimento em si, a sua personalidade, história de vida), pode
-                ser valioso integrar a forma de outros lidarem e encontrar novos
-                recursos para atravessar pelo luto.
-              </Text>
-            </Flex>
           </Flex>
 
           {/* Aqui eu coloquei um botão pra dar a sensação de "final da seção" */}
