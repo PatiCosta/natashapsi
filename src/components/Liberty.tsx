@@ -53,7 +53,7 @@ export function Liberty() {
             >
               Desfrutar dessa liberdade pode ser complexo por causa de acontecimentos da vida que não
               temos controle e que podem causar traumas e dores profundas.
-              O processo de atravessar e conviver com um trauma ou um luto pode ser muito difícil e a nossa capacidade de escolha, de ação e de sermos a nós mesmos.
+              O processo de atravessar e conviver com um trauma ou um luto pode ser muito difícil e afeta a nossa capacidade de escolha, de ação e de sermos a nós mesmos.
               <br></br>
               <br></br>
               A psicoterapia individual ou em grupo ajuda a organizar pensamentos, sentimentos
@@ -62,7 +62,7 @@ export function Liberty() {
               <br></br>
               <br></br>
               Trazer fluidez para a vida, reorganizar a forma de estar no mundo leva um tempo,
-              mas traz alivio, segurança, compreensão, amadurecimento e crescimento. E é possível
+              mas traz alivio, segurança, compreensão, crescimento, o que torna possível
               viver uma vida com significado apesar da dor.
 
             </Text>
