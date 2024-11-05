@@ -43,7 +43,7 @@ export function PsicologiaClinica() {
                             ""
                             :
                             <Image
-                                src='assets/new-images/clínica.jpg'
+                                src='assets/new-images/clinica.jpg'
                                 objectFit={'cover'}
                                 objectPosition={'center'}
                                 py={4}
@@ -87,7 +87,7 @@ export function PsicologiaClinica() {
                     {isLg ?
                         < Flex w='100%'>
                             <Image
-                                src='assets/new-images/clínica.jpg'
+                                src='assets/new-images/clinica.jpg'
                                 objectFit={'cover'}
                                 objectPosition={'center'}
                             />
