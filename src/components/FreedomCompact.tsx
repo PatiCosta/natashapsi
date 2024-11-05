@@ -53,7 +53,7 @@ export function FreedomCompact() {
             />
           </Flex>
 
-          <Divider orientation='vertical' bgColor='alabaster' w={'0.5px'} h={14} my='auto' />
+          <Divider orientation='vertical' bgColor='alabaster' minW={'1px'} h={14} my='auto' />
           <Flex
             w='100%'
             gap={{ base: 2, lg: 4 }}
@@ -77,7 +77,7 @@ export function FreedomCompact() {
               textAlign={{ base: 'center', lg: 'start' }}
             />
           </Flex>
-          <Divider orientation='vertical' bgColor='alabaster' w={'0.5px'} h={14} my='auto' />
+          <Divider orientation='vertical' bgColor='alabaster' minW={'1px'} h={14} my='auto' />
           <Flex
             w='100%'
             gap={{ base: 2, lg: 4 }}
