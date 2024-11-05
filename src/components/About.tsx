@@ -63,7 +63,7 @@ export function About() {
               Todas as pessoas que sofrem alguma dor por acontecimentos
               relacionados à Trauma e/ou Luto sentem a sua dor de forma
               diferente, mesmo tendo passado pela mesma situação. A forma como
-              nós sofremos vai depender da relação entre o evento em si (o que
+              nós sofremos depende da relação entre o evento em si (o que
               aconteceu e qual a rede de apoio e confiança no momento do trauma)
               + nossa história + nossa personalidade.
             </Text>
@@ -131,8 +131,8 @@ export function About() {
                 fontSize={{ base: "md", lg: "lg" }}
                 lineHeight={{ base: "md", lg: "lg" }}
               >
-                A troca pode ser valorosa também porque apesar de passarem pelo
-                mesmo acontecimento a forma de expressar, sentir e enfrentar a dor
+                A troca pode ser valorosa também porque, apesar de passarem pelo
+                mesmo acontecimento, a forma de expressar, sentir e enfrentar a dor
                 é diferente.
               </Text>
             </Flex>
@@ -147,7 +147,7 @@ export function About() {
               >
                 Mesmo respeitando a sua forma de enfrentar a própria dor (o
                 acontecimento em si, a sua personalidade, história de vida), pode
-                ser valioso integrar a forma de outros lidarem e encontrar novos
+                ser valioso integrar a forma de outros lidarem para encontrar novos
                 recursos para atravessar pelo luto.
               </Text>
             </Flex>

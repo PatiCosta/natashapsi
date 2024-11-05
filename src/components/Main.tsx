@@ -104,10 +104,10 @@ export function Main() {
             />
             <Text fontSize="lg" mt={6}>
               <Highlight
-                query={['Psicóloga Clínica', 'Pós Graduada em Avaliação Psicológica', 'Análise Comportamental Clinica']}
+                query={['Psicóloga Clínica', 'Pós Graduada em Avaliação Psicológica', 'Análise Comportamental Clínica']}
                 styles={{ fontWeight: 'semibold', color: 'siam' }}
               >
-                Psicóloga Clínica, Pós Graduada em Avaliação Psicológica e Análise Comportamental Clinica.
+                Psicóloga Clínica, Pós Graduada em Avaliação Psicológica e Análise Comportamental Clínica.
               </Highlight>
             </Text>
             <Text fontSize="1.125rem" mt={4}>
@@ -299,13 +299,13 @@ export function Main() {
         />
         <Text fontSize="md" mt={3} textAlign={'center'} pt={2}>
           <Highlight
-            query={['Psicóloga Clínica', 'Pós Graduada em Avaliação Psicológica', 'Análise Comportamental Clinica']}
+            query={['Psicóloga Clínica', 'Pós Graduada em Avaliação Psicológica', 'Análise Comportamental Clínica']}
             styles={{ fontWeight: 'semibold', color: 'siam' }}
           >
-            Sou Psicóloga Clínica e Pós Graduada em Avaliação Psicológica e Análise Comportamental Clinica.
+            Psicóloga Clínica, Pós Graduada em Avaliação Psicológica e Análise Comportamental Clínica.
           </Highlight>
         </Text>
-        <Text fontSize="0.875rem" textAlign={'justify'} mt={4}>
+        <Text fontSize="0.875rem" textAlign={'center'} mt={4}>
           <Highlight
             query={['FAP']}
             styles={{ fontWeight: 'medium', color: 'siam' }}
@@ -323,7 +323,7 @@ export function Main() {
           </Highlight>
           <br></br>
         </Text>
-        <Text fontSize="0.875rem" textAlign={'justify'} mt={4}>
+        <Text fontSize="0.875rem" textAlign={'center'} mt={4}>
           Minha atuação profissional é focada em aprofundar o autoconhecimento
           para que as pessoas possam se sentir mais livres para viver uma vida com significado.
         </Text>

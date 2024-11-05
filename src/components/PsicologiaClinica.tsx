@@ -13,10 +13,10 @@ export function PsicologiaClinica() {
 
                 <Flex flexDir={'column'}>
                     <Heading
-                        text="Um prazer imenso em ser Psicóloga Clinica!"
+                        text="Um prazer imenso em ser Psicóloga Clínica!"
                         size="lg"
                         isHighlighted
-                        highlightedText={"Psicóloga Clinica!"}
+                        highlightedText={"Psicóloga Clínica!"}
                         highlightColor="whiskey"
                     />
 
@@ -34,7 +34,7 @@ export function PsicologiaClinica() {
                     <Flex flexDir={'column'} textAlign={'justify'} gap={4} fontSize={'md'} fontWeight={'300'} w='100%'>
 
                         <Text>
-                            Tenho um prazer imenso em ser Psicóloga Clinica! É ao mesmo tempo um grande desafio e responsabilidade, assim como alegria e privilégio!
+                            Tenho um prazer imenso em ser Psicóloga Clínica! É ao mesmo tempo um grande desafio e responsabilidade, assim como alegria e privilégio!
                             Um dos meus propósitos de vida é ajudar as pessoas a atravessarem por suas dores de uma forma que possam viver uma vida com significado apesar da dor.
 
                         </Text>
@@ -43,14 +43,14 @@ export function PsicologiaClinica() {
                             ""
                             :
                             <Image
-                                src='assets/new-images/clinica.jpg'
+                                src='assets/new-images/clínica.jpg'
                                 objectFit={'cover'}
                                 objectPosition={'center'}
                                 py={4}
                             />
                         }
                         <Text>
-                            Esse propósito existe não apenas por ser inerente à profissão de psicóloga, mas porque também já sofri em diversos momentos da minha vida e a terapia fez total diferença na minha forma de experenciar as minhas dores, aceitá-las e lidar com elas, além de aprender a me ver sob outra perspectiva: percebendo as minhas qualidades, compreendendo o meu funcionamento, e validando o meu amadurecimento e crescimento. Tendo a consciência de que a vida sempre será um desenvolvimento continuo com seus desafios inerentes. Eventualmente terei que lidar com algo novo que talvez não esteja preparada e faz parte.
+                            Esse propósito existe não apenas por ser inerente à profissão de psicóloga, mas porque também já sofri em diversos momentos da minha vida e a terapia fez total diferença na minha forma de experienciar as minhas dores, aceitá-las e lidar com elas, além de aprender a me ver sob outra perspectiva: percebendo as minhas qualidades, compreendendo o meu funcionamento, e validando o meu amadurecimento e crescimento. Tendo a consciência de que a vida sempre será um desenvolvimento contínuo com seus desafios inerentes. Eventualmente terei que lidar com algo novo que talvez não esteja preparada e faz parte.
                         </Text>
                         <Text>
                             A vida é dinâmica, é movimento. Tem muitas coisas que acontecem que não podemos prever ou impedir que aconteçam.
@@ -66,7 +66,7 @@ export function PsicologiaClinica() {
                             Podemos aprender com as nossas dores. É fonte riquíssima de autoconhecimento. Aprendemos porque vamos perceber a conexão dos acontecimentos x emoções predominantes, a intensidade dessas emoções e como reagimos à elas. Além do que pensamos sobre tudo isso, e as regras que criamos a partir do que nos aconteceu sobre as situações, nós mesmos e os outros.
                         </Text>
                         <Text>
-                            A vida é feita disso mesmo: de amor, alegrias, incertezas, fracassos, realizações, sofrimento, abundância, escassez, paz..... Precisamos acomodar tudo o que nos acontece e achar um significado na nossa vida apesar dos revezes. Sei que pode não ser fácil, mas vale a pena!
+                            A vida é feita disso mesmo: de amor, alegrias, incertezas, fracassos, realizações, sofrimento, abundância, escassez, paz. Precisamos acomodar tudo o que nos acontece e achar um significado na nossa vida apesar dos revezes. Sei que pode não ser fácil, mas vale a pena!
                         </Text>
                         {isLg ?
                             ""
@@ -87,7 +87,7 @@ export function PsicologiaClinica() {
                     {isLg ?
                         < Flex w='100%'>
                             <Image
-                                src='assets/new-images/clinica.jpg'
+                                src='assets/new-images/clínica.jpg'
                                 objectFit={'cover'}
                                 objectPosition={'center'}
                             />

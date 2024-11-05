@@ -27,7 +27,7 @@ export function Psicotherapy() {
 
               <Image src="/assets/new-images/atendimento-1.jpg" alt="Imagem ilustrativa" />
               {/* <Image src="/assets/new-images/atendimento-2.jpg" alt="Imagem ilustrativa"/> */}
-              <Image src="/assets/new-images/whatsapp-image.jpg" alt="Imagem ilustrativa"/>
+              <Image src="/assets/new-images/whatsapp-image.jpg" alt="Imagem ilustrativa" />
 
             </Flex>
           </Flex>
@@ -80,13 +80,13 @@ export function Psicotherapy() {
           >
 
             <Text>
-              A Psicoterapia individual é um processo de aprendizagem de si mesmo, de autoconhecimento, no sentido
-              de promover a compreensão do próprio funcionamento de forma profunda e decidir o que é preciso mudar.
+              A Psicoterapia individual é um processo de aprendizagem de si mesmo, de autoconhecimento, que promove a compreensão do
+              próprio funcionamento de forma profunda para decidir o que é preciso mudar.
               Neste processo de mudança existe o suporte para o desenvolvimento de novas habilidades.
               Sempre respeitando a história de vida, o contexto e quem é essa pessoa hoje.
             </Text>
             <br></br>
-            
+
             {!isLg && (
               <Image src="/assets/new-images/atendimento-1.jpg" alt="Imagem ilustrativa" py={4} />
             )}
@@ -106,7 +106,7 @@ export function Psicotherapy() {
             <br></br>
 
             <Text>
-            Psicoterapia pode trabalhar qualquer trauma, luto (perdas como divorcio, morte, doença, demissão ou outras) ou medos extremos, inseguranças, crises de ansiedade, e até mesmo para aprofundar o autoconhecimento, com foco no equilíbrio emocional, desenvolvimento de autoestima e melhorar a qualidade dos relacionamentos.
+              Psicoterapia pode trabalhar qualquer trauma, luto (perdas como divorcio, morte, doença, demissão ou outras) ou medos extremos, inseguranças, crises de ansiedade, e até mesmo para aprofundar o autoconhecimento, com foco no equilíbrio emocional, desenvolvimento de autoestima e melhoria na qualidade dos relacionamentos.
             </Text>
 
             {!isLg && (

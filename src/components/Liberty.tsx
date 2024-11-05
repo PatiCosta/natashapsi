@@ -51,10 +51,9 @@ export function Liberty() {
               mt={{ base: 4, lg: 6 }}
               textAlign={{ base: 'justify', lg: 'start' }}
             >
-              Desfrutar dessa liberdade pode ser difícil por acontecimentos da vida que não
+              Desfrutar dessa liberdade pode ser complexo por causa de acontecimentos da vida que não
               temos controle e que podem causar traumas e dores profundas.
-              O processo de conviver e até de superar um trauma ou um luto é muito difícil e
-              afeta a nossa capacidade de escolha, de ação e de sermos a nós mesmos.
+              O processo de atravessar e conviver com um trauma ou um luto pode ser muito difícil e a nossa capacidade de escolha, de ação e de sermos a nós mesmos.
               <br></br>
               <br></br>
               A psicoterapia individual ou em grupo ajuda a organizar pensamentos, sentimentos
