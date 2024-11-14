@@ -7,7 +7,7 @@ export default function Document() {
         {/* <!-- HTML Meta Tags --> */}
         <meta
           name="description"
-          content="Psicóloga Clínica e Especialista em Desenvolvimento de Carreira,
+          content="Psicóloga Clínica e Analista do Comportamento, com foco em trauma e luto,
             formada há 23 anos."
         />
         <meta
@@ -16,23 +16,23 @@ export default function Document() {
         />
 
         {/* <!-- Facebook Meta Tags --> */}
-        <meta property="og:url" content="https://natashapsi.vercel.app/" />
+        <meta property="og:url" content="https://www.natashamacedopsicologia.com.br/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Natasha Macedo" />
         <meta
           property="og:description"
-          content="Psicóloga Clínica e Especialista em Desenvolvimento de Carreira,
+          content="Psicóloga Clínica Analista do Comportamento, com foco em trauma e luto,
             formada há 23 anos."
         />
         <meta
           property="og:image"
-          content="https://natashapsi.vercel.app/assets/og_image.png"
+          content="https://www.natashamacedopsicologia.com.br/assets/og_image.png"
         />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:domain" content="https://natashapsi.vercel.app/" />
-        {/* <meta name="twitter:url" content="https://natashapsi.vercel.app/" /> */}
+        <meta name="twitter:domain" content="https://www.natashamacedopsicologia.com.br/" />
+        {/* <meta name="twitter:url" content="https://www.natashamacedopsicologia.com.br/" /> */}
         {/* <meta name="twitter:title" content="Natasha Macedo" /> */}
         {/* <meta
           name="twitter:description"
@@ -41,11 +41,11 @@ export default function Document() {
         /> */}
         {/* <meta
           name="twitter:image"
-          content="https://natashapsi.vercel.app/assets/logo.png"
+          content="https://www.natashamacedopsicologia.com.br/assets/logo.png"
         /> */}
 
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-        <link rel="canonical" href="https://natashapsi.vercel.app/" />
+        <link rel="canonical" href="https://www.natashamacedopsicologia.com.br/" />
       </Head>
       <body>
         <Main />
