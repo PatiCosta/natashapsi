@@ -46,7 +46,6 @@ function Feedback({
       pt={{ base: 16, lg: 24 }}
       px={{ base: 4, lg: 12 }}
       minW={w}
-      h={{ base: 'calc(100vh - 42rem)', lg: '30rem' }}
       maxH={{ base: '460px', lg: 'initial' }}
       position="relative"
       overflow="hidden"
@@ -169,7 +168,7 @@ export function Feedbacks() {
       </Flex>
     </Box>
   ) : (
-    <Box px={8} mb={8}>
+    <Box px={8} mb={8} border='1px solid red'>
       <Heading
         size="sm"
         text="O que meus pacientes e clientes têm a dizer?"
