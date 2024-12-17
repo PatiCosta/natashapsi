@@ -14,7 +14,7 @@ interface ButtonProps extends ChakraButtonProps {
 
 export function Button({ variant, text, prevText, ...rest }: ButtonProps) {
 
-  const href = `https://wa.me/4899985535/${prevText}`
+  const href = `https://wa.me/4899985535?text=${prevText}`
 
   return (
     <ChakraButton
