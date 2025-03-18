@@ -12,9 +12,17 @@ export const theme = extendBaseTheme({
     Button,
   },
   colors: {
+    ocean:'#18424e',
+    oceanBg:'#285464',
+    ocyan:'#87c0c2',
+    terra:'#ae6d33',
+    terraBg:'#b16a28',
+    dirt:'#e6dfd9',
+    dirtBg:'#efefef',
     santaFe: '#B16E51',
     brass: '#CB8762',
     whiskey: '#D49671',
+    bourbon: '#b97c43',
     olive: '#A29C84',
     bitter: '#89907F',
     siam: '#67705F',
@@ -43,7 +51,7 @@ export const theme = extendBaseTheme({
   styles: {
     global: {
       'html, body': {
-        bgColor: 'alabaster',
+        bgColor: 'dirtBg',
         fontWeight: 'light',
         color: 'eerie',
         scrollBehavior: 'smooth',
