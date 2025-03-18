@@ -18,7 +18,7 @@ export function Agende({ isMobile, menuItems }: AgendeProps) {
             <Flex gap={4} p={4}>
 
                 <Flex w='100%'>
-                    <Flex textAlign={'start'} alignItems={'start'} justifyContent={'center'} flexDir={'column'} color={'white'} gap={4} fontWeight={'normal'} fontSize={['md','md','md',18,18]} lineHeight={2}>
+                    <Flex textAlign={'start'} alignItems={'start'} justifyContent={'center'} flexDir={'column'} color={'white'} gap={4} fontWeight={'normal'} fontSize={['md', 'md', 'md', 18, 18]} lineHeight={2}>
 
                         <Flex display={'inline'}>
                             Desfrutar dessa liberdade pode ser complexo por
@@ -43,7 +43,7 @@ export function Agende({ isMobile, menuItems }: AgendeProps) {
                         </Flex>
 
                         <Flex>
-                            <Image src='assets/a-vida.png' maxW={96} />
+                            <Image src='assets/a-vida.png' maxW={96} w='100%' />
                         </Flex>
 
                         <Flex display={'inline'}>

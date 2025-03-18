@@ -28,16 +28,16 @@ export function Meaning() {
                     </Flex>
                 </Flex>
 
-                <Flex w='100%' justifyContent={'center'} gap={8} fontSize={['sm','sm','sm','lg','lg']}>
-                    <Flex flexDir={'column'} alignItems={'center'} justifyContent={'end'} textAlign={'center'} color={'white'} gap={4} bgColor={'ocyan'} p={[3,3,3,10,10]} borderRadius={32} boxShadow={['2xl']}>
+                <Flex w='100%' justifyContent={'center'} gap={[2,2,2,8,8]} fontSize={['sm','sm','sm','lg','lg']}>
+                    <Flex flexDir={'column'} alignItems={'center'} justifyContent={'end'} textAlign={'center'} color={'white'} gap={4} bgColor={'ocyan'} p={[1,1,1,10,10]} borderRadius={32} boxShadow={['2xl']}>
                         <MdSignpost size={iconSize} />
                         <Text> LIBERDADE DE <br></br> <b>ESCOLHA</b></Text>
                     </Flex>
-                    <Flex flexDir={'column'} alignItems={'center'} justifyContent={'end'} textAlign={'center'} color={'white'} gap={4} bgColor={'ocyan'} p={[3,3,3,10,10]} borderRadius={32} boxShadow={['2xl']}>
+                    <Flex flexDir={'column'} alignItems={'center'} justifyContent={'end'} textAlign={'center'} color={'white'} gap={4} bgColor={'ocyan'} p={[1,1,1,10,10]} borderRadius={32} boxShadow={['2xl']}>
                         <TfiTarget size={iconSize} />
                         <Text> LIBERDADE DE <br></br> <b>AÇÃO</b></Text>
                     </Flex>
-                    <Flex flexDir={'column'} alignItems={'center'} justifyContent={'end'} textAlign={'center'} color={'white'} gap={4} bgColor={'ocyan'} p={[3,3,3,10,10]} borderRadius={32} boxShadow={['2xl']}>
+                    <Flex flexDir={'column'} alignItems={'center'} justifyContent={'end'} textAlign={'center'} color={'white'} gap={4} bgColor={'ocyan'} p={[1,1,1,10,10]} borderRadius={32} boxShadow={['2xl']}>
                         <Image src={'assets/v2/n-icon.png'} maxW={[8,8,8,16,16]} />
                         <Text> LIBERDADE DE <br></br> <b>SER</b></Text>
                     </Flex>

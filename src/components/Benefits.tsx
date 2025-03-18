@@ -87,7 +87,7 @@ export function Benefits({ menuItems }: BenefitsProps) {
                     </Text>
 
 
-                    <Button bgColor={'ocean'} color={'white'} borderRadius={24} fontSize={'18'} fontWeight={'bold'} p={6} _hover={{ bgColor: 'terra' }} mx='auto' mt={8} onClick={() => scrollToSection(slugify(menuItems[4]))}>
+                    <Button bgColor={'ocean'} color={'white'} borderRadius={24} fontSize={['14','14','14','18','18']} fontWeight={'bold'} p={6} _hover={{ bgColor: 'terra' }} mx='auto' mt={8} onClick={() => scrollToSection(slugify(menuItems[4]))}>
                         Quero fazer psicoterapia individual
                     </Button>
 
