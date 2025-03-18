@@ -7,6 +7,7 @@ import { IoArrowBackCircle, IoArrowForwardCircle } from 'react-icons/io5';
 import { PiStarFill } from 'react-icons/pi';
 import { IoMdStar } from 'react-icons/io';
 import { CaretCircleLeft, CaretCircleRight } from 'phosphor-react';
+import feedbacks from '../data/feedbacks.json'
 interface CarouselItem {  // Interface para CADA item (depoimento)
     initials: string;
     testimonial: string;
@@ -17,38 +18,25 @@ interface CarouselProps {
     items: CarouselItem[];
 }
 
-const testimonials = [
-    {
-        initials: 'A.C',
-        testimonial: "1 Psicóloga excepcional, dedicada, demonstra amar o que faz. Me ajudou em momentos importantes na vida pessoal e profissional, mostrando a importância de valorizarmos diariamente, todo o aprendizado que os desafios nos proporcionam.",
-        stars: 5,
-    },
-    {
-        initials: 'A.C',
-        testimonial: "2 Psicóloga excepcional, dedicada, demonstra amar o que faz. Me ajudou em momentos importantes na vida pessoal e profissional, mostrando a importância de valorizarmos diariamente, todo o aprendizado que os desafios nos proporcionam.",
-        stars: 5,
-    },
-    // ... adicione mais depoimentos ...
-];
 
 export function FeedbacksCarousel() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const nextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % feedbacks.length);
     };
 
     const prevSlide = () => {
         setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
+            prevIndex === 0 ? feedbacks.length - 1 : prevIndex - 1
         );
     };
 
-    if (testimonials.length === 0) {
+    if (feedbacks.length === 0) {
         return <div>Nenhum depoimento para exibir.</div>; // Ou um placeholder
     }
 
-    const currentItem = testimonials[currentIndex];
+    const currentItem = feedbacks[currentIndex];
 
     return (
         <Flex flexDir={'column'} my={40}>
@@ -64,7 +52,7 @@ export function FeedbacksCarousel() {
                         fontSize={50}
                         variant="ghost"
                         color="#18424e"
-                        isDisabled={testimonials.length <= 1} // Desabilita se houver apenas um item
+                        isDisabled={feedbacks.length <= 1} // Desabilita se houver apenas um item
                     />
                 </Flex>
 
@@ -84,12 +72,12 @@ export function FeedbacksCarousel() {
                 >
                     {/* Iniciais */}
                     <Text fontSize="2xl" fontWeight="medium">
-                        {currentItem.initials}
+                        {currentItem.name}
                     </Text>
 
                     {/* Depoimento */}
                     <Text fontSize={["sm","sm","sm","md","md"]} mb={4} textAlign="center" fontStyle={'italic'} p={8} lineHeight={1.8}>
-                        "{currentItem.testimonial}"
+                        "{currentItem.feedback}"
                     </Text>
 
                     {/* Estrelas */}
@@ -110,7 +98,7 @@ export function FeedbacksCarousel() {
                         fontSize={50}
                         variant="ghost"
                         color="#18424e"
-                        isDisabled={testimonials.length <= 1} // Desabilita se houver apenas um item
+                        isDisabled={feedbacks.length <= 1} // Desabilita se houver apenas um item
                     />
                 </Flex>
             </Flex>

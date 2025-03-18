@@ -6,7 +6,8 @@
         "feedback": "A Natasha é uma profissional fantástica!! Me ajudou muito em um momento bem difícil de minha vida! Atenciosa, preocupada e muito assertiva!\nRecomendo!!!",
         "time": "2 semanas atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "C.F.",
@@ -15,7 +16,8 @@
         "feedback": "Estou muito satisfeito com o trabalho da Natasha. Ela me ajuda a enxergar novas perspectivas, promovendo um grande avanço na minha saúde mental e no meu bem estar emocional. - C.F. - Miami FL",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "A.C.",
@@ -24,7 +26,8 @@
         "feedback": "Psicóloga excepcional, dedicada, demonstra amar o que faz. Me ajudou em momentos importantes na vida pessoal e profissional, mostrando a importância de valorizarmos diariamente, todo o aprendizado que os desafios nos proporcionam.",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "J.L.",
@@ -33,7 +36,8 @@
         "feedback": "A Natasha é uma pessoa e profissional incrível, que torna a terapia algo mais leve e fluida! Fez grandes mudanças na minha vida e eu indico de olhos fechados!",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "L.M.",
@@ -42,7 +46,8 @@
         "feedback": "Um trabalho realmente excelente e de qualidade! Só posso agradecer por tudo que aprendi com a Natasha, são conselhos e ensinamentos que levarei pro resto da vida. Super recomendo!",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "L.A.",
@@ -51,7 +56,8 @@
         "feedback": "Psicóloga dedicada, experiente e de conduta extremamente profissional. Faço acompanhamento há anos e recomendo o trabalho irretocável prestado pela Natasha.",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "E.R.",
@@ -60,7 +66,8 @@
         "feedback": "Maravilhosa. Resgatou situações de minha vida para as quais eu não sabia que eram pesos que eu carregava há anos. Desatou os nós que eu não imaginava serem importantes. Mudou minha vida. Obrigado por tudo querida.",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "F.F.",
@@ -69,7 +76,8 @@
         "feedback": "Natasha é um profissional impar, consultoria com ela foi um divisor de água na minha vida profissional e pessoal.Ela é maravilhosa, indico de olhos fechados",
         "time": "4 semanas atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "G.B.",
@@ -78,7 +86,8 @@
         "feedback": "A Natasha é uma profissional excelente, que proporciona um ambiente seguro e acolhedor para seus pacientes. Recomendo!",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "R.R.",
@@ -87,7 +96,8 @@
         "feedback": "Excelente profissional. Me sinto verdadeiramente acolhida. Passa calma e tranquilidade, além de seriedade e conhecimento técnico. Super satisfeita",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     },
     {
         "name": "A.H.",
@@ -96,6 +106,7 @@
         "feedback": "Psicóloga maravilhosa!!",
         "time": "um mês atrás",
         "type": "⭐⭐⭐⭐⭐",
-        "highlight":["teste"]
+        "highlight":["teste"],
+        "stars":5
     }
 ]
