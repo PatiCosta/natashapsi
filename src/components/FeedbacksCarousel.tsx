@@ -3,8 +3,6 @@
 
 import React, { useState } from 'react';
 import { Flex, IconButton, Text } from '@chakra-ui/react';
-import { IoArrowBackCircle, IoArrowForwardCircle } from 'react-icons/io5';
-import { PiStarFill } from 'react-icons/pi';
 import { IoMdStar } from 'react-icons/io';
 import { CaretCircleLeft, CaretCircleRight } from 'phosphor-react';
 import feedbacks from '../data/feedbacks.json'
@@ -40,7 +38,12 @@ export function FeedbacksCarousel() {
 
     return (
         <Flex flexDir={'column'} my={40}>
-            <Flex justifyContent={'center'} alignItems={'center'} overflow="hidden" gap={[2,2,2,24,24]}>
+            <Flex w='100%' alignItems={'center'} justifyContent={'center'}>
+                <Text fontWeight={'medium'} color={'white'} letterSpacing={2} fontSize={'2xl'}>
+                    DEPOIMENTOS
+                </Text>
+            </Flex>
+            <Flex justifyContent={'center'} alignItems={'center'} overflow="hidden" gap={[2, 2, 2, 24, 24]}>
                 {/* Container centralizado com cantos arredondados e sombra */}
                 <Flex>
                     <IconButton
@@ -60,9 +63,9 @@ export function FeedbacksCarousel() {
                     direction="column"
                     align="center"
                     justifyContent={'center'}
-                    maxW={["100%","100%","100%","2xl","2xl"]} // Largura máxima (ajuste conforme necessário)
+                    maxW={["100%", "100%", "100%", "2xl", "2xl"]} // Largura máxima (ajuste conforme necessário)
                     mx="auto" // Centraliza horizontalmente
-                    p={[2,2,2,6,6]} // Padding
+                    p={[2, 2, 2, 6, 6]} // Padding
                     bg="white" // Fundo branco (ajuste conforme necessário)
                     borderRadius={40} // Bordas arredondadas
                     boxShadow="lg" // Sombra suave
@@ -76,7 +79,7 @@ export function FeedbacksCarousel() {
                     </Text>
 
                     {/* Depoimento */}
-                    <Text fontSize={["sm","sm","sm","md","md"]} mb={4} textAlign="center" fontStyle={'italic'} p={8} lineHeight={1.8}>
+                    <Text fontSize={["sm", "sm", "sm", "md", "md"]} mb={4} textAlign="center" fontStyle={'italic'} p={8} lineHeight={1.8}>
                         "{currentItem.feedback}"
                     </Text>
 

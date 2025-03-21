@@ -1,8 +1,5 @@
 import { scrollToSection, slugify } from "@/utils";
-import { Button, Flex, Icon, Image, Text } from "@chakra-ui/react";
-import { Signpost } from "phosphor-react";
-import { MdSignpost } from "react-icons/md";
-import { TfiTarget } from "react-icons/tfi";
+import { Button, Flex, Image } from "@chakra-ui/react";
 
 interface AgendeProps {
     isMobile?: boolean

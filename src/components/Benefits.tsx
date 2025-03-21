@@ -1,8 +1,10 @@
 import { scrollToSection, slugify } from "@/utils";
 import { Button, Flex, Icon, Image, Text } from "@chakra-ui/react";
 import { Signpost } from "phosphor-react";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import { GiBrain, GiMuscleUp } from "react-icons/gi";
 import { MdSignpost } from "react-icons/md";
-import { TfiTarget } from "react-icons/tfi";
+import { TfiTarget, TfiThought } from "react-icons/tfi";
 
 
 interface BenefitsProps {
@@ -18,7 +20,7 @@ export function Benefits({ menuItems }: BenefitsProps) {
             <Flex flexDir={'column'} mt={40} mb={20} gap={12}>
 
                 <Flex>
-                    <Image src='assets/pc.png' w='100%' />
+                    <Image src='assets/pc-2.png' w='100%' />
                 </Flex>
 
                 <Flex fontSize={['3xl', '3xl', '3xl', '5xl', '5xl']} fontWeight={'medium'} display={'inline'} mx='auto' color={'ocean'} alignItems={'center'} justifyContent={'center'} textAlign={'center'}>
@@ -74,20 +76,39 @@ export function Benefits({ menuItems }: BenefitsProps) {
                         <Text mb={2} fontWeight={'bold'}>
                             O processo de Psicoterapia ajuda a:
                         </Text>
-                        <Text _before={{ content: '"•"', color: 'ocean', mr: '2', ml: '-4', fontSize: '24px' }}>Compreender as consequências da própria história no momento atual</Text>
-                        <Text _before={{ content: '"•"', color: 'ocean', mr: '2', ml: '-4', fontSize: '24px' }}>Organizar pensamentos, sentimentos e crenças relacionados às situações difíceis na vida</Text>
-                        <Text _before={{ content: '"•"', color: 'ocean', mr: '2', ml: '-4', fontSize: '24px' }}>Atravessar por todas as consequências decorrentes dos acontecimentos dolorosos</Text>
-                        <Text _before={{ content: '"•"', color: 'ocean', mr: '2', ml: '-4', fontSize: '24px' }}>Planejar e viver a vida apesar dessas situações que causam dor.</Text>
+                        <Flex gap={2} flexDir={'column'}>
+                            <Flex alignItems={'center'} justifyContent={'start'} w='100%' gap={4}>
+                                <GiBrain color="#18424e" size={40} />
+                                <Text> Compreender as consequências da própria história no momento atual</Text>
+                            </Flex>
+
+                            <Flex alignItems={'center'} justifyContent={'start'} w='100%' gap={4}>
+                                <TfiThought color="#18424e" size={40} />
+                                <Text> Organizar pensamentos, sentimentos e crenças relacionados às situações difíceis na vida</Text>
+                            </Flex>
+
+                            <Flex alignItems={'center'} justifyContent={'start'} w='100%' gap={4}>
+                                <GiMuscleUp color="#18424e" size={40} />
+                                <Text> Atravessar por todas as consequências decorrentes dos acontecimentos dolorosos</Text>
+                            </Flex>
+
+                            <Flex alignItems={'center'} justifyContent={'start'} w='100%' gap={4}>
+                                <FaHandHoldingHeart color="#18424e" size={40} />
+                                <Text> Planejar e viver a vida apesar dessas situações que causam dor.</Text>
+                            </Flex>
+                        </Flex>
                     </Flex>
 
-                    <Text>
-                        Trazer fluidez para a vida, reorganizar a forma de estar no mundo leva um tempo, mas traz
-                        alívio, segurança, compreensão, crescimento, o que torna possível viver uma vida com
-                        significado apesar das dificuldades.
-                    </Text>
+                    <Flex bgColor={'oceanBg'} p={4} borderRadius={8}>
+                        <Text fontWeight={'semibold'} textAlign={'center'}>
+                            Trazer fluidez para a vida, reorganizar a forma de estar no mundo leva um tempo, mas traz
+                            alívio, segurança, compreensão, crescimento, o que torna possível viver uma vida com
+                            significado apesar das dificuldades.
+                        </Text>
+                    </Flex>
 
 
-                    <Button bgColor={'ocean'} color={'white'} borderRadius={24} fontSize={['14','14','14','18','18']} fontWeight={'bold'} p={6} _hover={{ bgColor: 'terra' }} mx='auto' mt={8} onClick={() => scrollToSection(slugify(menuItems[4]))}>
+                    <Button bgColor={'ocean'} color={'white'} borderRadius={24} fontSize={['14', '14', '14', '18', '18']} fontWeight={'bold'} p={6} _hover={{ bgColor: 'terra' }} mx='auto' mt={8} onClick={() => scrollToSection(slugify(menuItems[4]))}>
                         Quero fazer psicoterapia individual
                     </Button>
 
