@@ -44,7 +44,7 @@ export default function Document() {
           content="https://www.natashamacedopsicologia.com.br/assets/logo.png"
         /> */}
 
-        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/assets/n-icon-2.svg" />
         <link rel="canonical" href="https://www.natashamacedopsicologia.com.br/" />
       </Head>
       <body>
