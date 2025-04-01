@@ -13,7 +13,7 @@ export function About({ isMobile }: AboutProps) {
 
             <Flex w='100%' flexDir={['column', 'column', 'row', 'row', 'row']} gap={[8, 8, 8, 0, 0]}>
                 <Flex w='100%' alignItems={'center'} justifyContent={'center'}>
-                    <Image src={"assets/v2/main.png"} objectFit={'contain'} w={'100%'} pr={[0, 0, 0, 32, 32]} />
+                    <Image src={"assets/v2/main2.png"} objectFit={'contain'} w={'100%'} pr={[0, 0, 0, 32, 32]} />
                 </Flex>
                 <Flex w='100%' flexDir={'column'} gap={8}>
                     <Image src={"assets/v2/logo-2.png"} objectFit={'contain'} />
